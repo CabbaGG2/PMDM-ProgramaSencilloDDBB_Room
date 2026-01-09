@@ -36,6 +36,8 @@ class MainActivity : ComponentActivity() {
         Log.d("soyGemini", "Inserting users into the database")
         userDao.insertAll(User(3, "Palomo", "Bernardino"))
 
+        //comentario de prueba para realizar un commit con copilot
+
         val users: List<User> = userDao.getAll()
         Log.d("soyGemini", "Users in database: $users")
 
